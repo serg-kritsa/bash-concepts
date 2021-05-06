@@ -458,11 +458,17 @@ done
 # # # ===============================================================
 # # # script arguments
 # # # ===============================================================
+# . scriptname OR source scriptname
+echo $0; # /bin/bash
+# sh scriptname
+echo $0; # /path/scriptname 
+### with execution right ###
+# ./scriptname
+echo $0; # /path/scriptname 
 # ./scriptname Apple Lemon
-echo $0 $1 # ./scriptname Apple Lemon
-# ./scriptname Apple Lemon
+echo $0 $1 # /path/scriptname Apple
 # ./scriptname "Red Apple" "Yellow Lemon"
-$1 $2
+echo $1 $2 # Red Apple Yellow Lemon
 # ./scriptname apple orange banana kiwi lemon
 for i in $@
 do
