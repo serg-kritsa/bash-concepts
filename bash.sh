@@ -624,3 +624,7 @@ curl ${url} > outputfile #
 #   # exit 255;
 # fi;
 # echo $(basename $0); # script
+
+# replacing exact line w/ sed ## symbol \ itself will never be printed in sed
+sed -i "341s/qqq/qwe # % ^ & + - * = > < ; | ' [] {} () " /path/filename; # as is
+sed -i "341s/qqq/qwe \! \@ \$ \/ \:" /path/filename; # qwe ! @ $ / :"
