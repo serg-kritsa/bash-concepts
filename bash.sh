@@ -610,3 +610,17 @@ curl ${url} -o NewFileDw # download file
 curl ${url} -I # http req headers
 curl ${url} > outputfile # 
 
+# echo -n "Enter to continue or Ctrl-C to quit: "
+# read
+
+# chmod 644 $file
+# if [[ $0 == "/bin/bash" ]]; then
+#   for i in 1 2 3 4
+#   do
+#     clear;
+#     echo -e "Для правильной работы запускать скрипт через \nsh scriptname\n \tИЛИ \n/path/scriptname с правами на выполнение\n Осуществляется выход $((i*=25))%" ; 
+#     read -t 1 -n 1;
+#   done
+#   # exit 255;
+# fi;
+# echo $(basename $0); # script
