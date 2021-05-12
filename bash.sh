@@ -129,11 +129,11 @@ echo ${fruit/b*/durian} # apple durian
 # cyan    36  46
 # white   37  47
 # \033 == \e
-echo -e '\033[37;40mWhite on Black\033[0m' # 
-echo -e '\033[34;42mBlack on Red\033[0m' # 
-echo -e '\033[34;42mGreen on Black\033[0m' # 
-echo -e '\033[34;42mRed on White\033[0m' # 
-echo -e '\033[34;42mBlue on Yellow\033[0m' # 
+echo -e '\033[37;40mWhite on Black\033[0m'; # 
+echo -e '\033[30;41mBlack on Red\033[0m'; # 
+echo -e '\033[32;40mGreen on Black\033[0m'; # 
+echo -e '\033[31;47mRed on White\033[0m'; # 
+echo -e '\033[34;43mBlue on Yellow\033[0m'; # 
 # STYLE           VALUE # styled text (ANSI)
 # no style        0
 # bold            1
