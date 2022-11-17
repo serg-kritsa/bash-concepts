@@ -1,0 +1,6 @@
+{
+  "string_data": "ip_as_text",
+  "object_data": "{\"nested_prop_1\":\"nested_value_1\",\"nested_prop_2\":\"nested_value_2\"}",
+  "object_data_with_array": "{\"nested_prop_1\":\"nested_value_1\",\"array_name\":[1,2,3]}",
+  "object_data_with_array_of_objects": "{\"array_name\":[{\"idx\":1,\"someProp\":112233}]}"
+}
